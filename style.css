@@ -59,13 +59,68 @@ nav {
   .hero p {
     margin: 2rem 0; }
 
-.get-started input {
-  box-sizing: border-box;
-  border: 1px solid #070439;
-  border-radius: 5px;
-  width: 100%;
-  padding: 1rem 0 1rem 1.5rem;
-  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1); }
+.background {
+  background-image: url("../../images/bg-curve-mobile.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 6em;
+  height: 90px; }
+
+.main-content {
+  background-color: #f8f8fe;
+  padding-bottom: 6em; }
+  .main-content .container {
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto; }
+    .main-content .container img {
+      width: 100%; }
+    .main-content .container h1 {
+      font-size: 1.2em;
+      text-align: center;
+      margin: 4em 0 2em; }
+    .main-content .container .bottom {
+      padding-bottom: 1em; }
+    .main-content .container .see-link {
+      text-align: center;
+      margin: 2.5em 0 3.5em;
+      position: relative; }
+      .main-content .container .see-link a {
+        color: #3c9f8f;
+        text-decoration: none;
+        border-bottom: 1.5px solid #3c9f8f;
+        padding: 0 20px 5px 0; }
+        .main-content .container .see-link a object {
+          position: absolute;
+          bottom: 1px;
+          right: 85px; }
+    .main-content .container .testimonial {
+      background-color: white;
+      padding: 2em;
+      border-radius: 5px;
+      box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.05); }
+      .main-content .container .testimonial p {
+        font-size: 0.74rem;
+        padding-top: 5px;
+        line-height: 20px; }
+      .main-content .container .testimonial .flex-container {
+        display: flex;
+        align-items: center;
+        margin-top: 1.5em; }
+        .main-content .container .testimonial .flex-container img {
+          border-radius: 50%;
+          width: 15%; }
+        .main-content .container .testimonial .flex-container p {
+          display: flex;
+          flex-direction: column;
+          font-weight: 700;
+          padding-left: 0.5rem;
+          line-height: 15px; }
+          .main-content .container .testimonial .flex-container p small {
+            font-weight: 400;
+            font-size: 0.6em; }
+
 .get-started button {
   width: 100%;
   margin-top: 1rem;
@@ -75,6 +130,14 @@ nav {
   color: #fff;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.2); }
+
+.get-started input {
+  box-sizing: border-box;
+  border: 1px solid #070439;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1rem 0 1rem 1.5rem;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1); }
 
 /*# sourceMappingURL=style.css.map */
