@@ -71,16 +71,26 @@
 .early-access
   text-align: center
   background-color: $desaturate-blue
-  padding-top: 4em
-  padding-bottom: 4.5em
-  div
+  padding-top: 4rem
+  padding-bottom: 4.5rem
+  @media only screen and (min-width: 768px)
+    padding-top: 6rem
+  .container
     width: 75%
     max-width: 1440px
     margin: 0 auto
+    @media only screen and (min-width: 768px)
+      display: grid
+      grid-template-columns: 1fr 1fr
+      grid-column-gap: 14rem
+      width: 85%
+      text-align: left
     h2
       font-size: 1.2em
       color: $gray-blue
-      padding-bottom: 1em
+      padding-bottom: 1rem
+      @media only screen and (min-width: 768px)
+        font-size: 1.9em
     p
       color: $gray-blue
       margin-bottom: 1.5em
